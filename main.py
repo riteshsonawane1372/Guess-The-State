@@ -36,8 +36,8 @@ while len(gussed_state) <33:
         t.clear()
         t.color(random.choice(color_list))
         t.write(answer_state)
-    
-my_screen.exitonclick()
+    my_screen.exitonclick()
+
 
 
 
