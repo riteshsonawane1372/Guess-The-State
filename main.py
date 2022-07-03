@@ -8,7 +8,7 @@ import pandas
 color_list=["red","brown","blue","pink","orange"]
 my_screen = Screen()
 my_turtle= Turtle()
-image="./Section 25/The Indian State game/IndiaMap.gif"
+image="./IndiaMap.gif"
 my_screen.title("States In India")
 my_screen.addshape(image)
 #After adding the shape turtle can use it 
