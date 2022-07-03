@@ -1,6 +1,5 @@
 import random as random
 from turtle import Turtle,Screen
-import turtle
 import pandas
 
 
@@ -16,6 +15,7 @@ my_turtle.shape(image)
 #read the data from pandas
 data = pandas.read_csv("./india-states.csv")
 all_States=list(data.state)
+# all_states = list(data.State)
 
 gussed_state=[]
 
@@ -36,7 +36,8 @@ while len(gussed_state) <33:
         t.clear()
         t.color(random.choice(color_list))
         t.write(answer_state)
-    my_screen.exitonclick()
+    
+my_screen.exitonclick()
 
 
 
