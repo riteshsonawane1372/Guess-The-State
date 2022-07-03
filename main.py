@@ -14,7 +14,7 @@ my_screen.addshape(image)
 #After adding the shape turtle can use it 
 my_turtle.shape(image)
 #read the data from pandas
-data = pandas.read_csv("./Section 25/The Indian State game/india-states.csv")
+data = pandas.read_csv("./india-states.csv")
 all_States=list(data.state)
 
 gussed_state=[]
